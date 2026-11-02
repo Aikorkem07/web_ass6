@@ -67,7 +67,7 @@ GITHUB REPOSITORY
 
 
 GITHUB PAGES
-
+ https://aikorkem07.github.io/web_ass6/
 
 SCREENSHOTS
 
