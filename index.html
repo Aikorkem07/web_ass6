@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SEN SULU — Beauty Rituals</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header">
+        <a href="#home" class="logo">SEN SULU<span>®</span></a>
+
+        <nav>
+            <a href="#about">About</a>
+            <a href="#collection">Collection</a>
+            <a href="#journal">Journal</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <button id="themeButton">Dark mode</button>
+    </header>
+
+    <main>
+        <section class="hero" id="home">
+            <div class="hero-top">
+                <span>INDEPENDENT BEAUTY BRAND</span>
+                <span>EST. 2026 — ASTANA</span>
+            </div>
+
+            <div class="hero-content">
+                <p class="eyebrow">A DIFFERENT KIND OF BEAUTY</p>
+                <h1>Beauty is<br><em>personal.</em></h1>
+                <p class="hero-description">
+                    Thoughtful essentials for everyday rituals.
+                    Made for the moments that belong only to you.
+                </p>
+                <a href="#collection" class="text-link">Explore the collection ↗</a>
+            </div>
+
+            <div class="hero-bottom">
+                <span>01 / 04</span>
+                <span>LESS, BUT BETTER.</span>
+                <span>SCROLL TO DISCOVER ↓</span>
+            </div>
+        </section>
+
+        <section class="section profile" id="about">
+            <div class="section-label">
+                <span>01</span>
+                <span>ABOUT THE CREATOR</span>
+            </div>
+
+            <div class="profile-content">
+                <p class="eyebrow">WELCOME TO MY PORTFOLIO</p>
+                <h2>Hello, I'm <em>Aikorkem.</em></h2>
+                <h3 id="greeting">Creative mind. Beauty enthusiast.</h3>
+                <p class="profile-text">
+                    I am interested in design, beauty, creativity and
+                    digital experiences. SEN SULU is a concept project
+                    inspired by simple beauty rituals and personal style.
+                </p>
+                <p class="status">Currently learning jQuery!</p>
+
+                <div class="profile-buttons">
+                    <button id="themeButtonLight">Light theme</button>
+                    <button id="themeButtonDark">Dark theme</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="section about-details">
+            <div class="section-label">
+                <span>02</span>
+                <span>OUR PHILOSOPHY</span>
+            </div>
+
+            <div class="about-content">
+                <p class="eyebrow">THE BRAND</p>
+                <h2>Not more beauty.<br><em>More meaning.</em></h2>
+
+                <p class="about-description">
+                    SEN SULU is built around a simple idea:
+                    taking care of yourself should feel natural.
+                    No complicated routines. Just thoughtful products
+                    and a little time for yourself.
+                </p>
+
+                <p class="status-message" id="statusMessage">
+                    Welcome to SEN SULU. A little care goes a long way.
+                </p>
+
+                <div class="about-buttons">
+                    <button id="hideButton">Hide</button>
+                    <button id="showButton">Show</button>
+                    <button id="toggleButton">Toggle</button>
+                </div>
+
+                <div class="fun-facts">
+                    <p class="eyebrow">A FEW THINGS WE LOVE</p>
+                    <ul>
+                        <li>Simple daily rituals</li>
+                        <li>Natural elegance</li>
+                        <li>Taking time for yourself</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="section gallery-section">
+            <div class="section-label">
+                <span>03</span>
+                <span>VISUAL STUDIES</span>
+            </div>
+
+            <div class="gallery-heading">
+                <p class="eyebrow">THE BEAUTY OBJECTS</p>
+                <h2>Details of <em>care.</em></h2>
+                <p>Explore our illustrated product concepts.</p>
+            </div>
+
+            <div class="gallery">
+                <div class="gallery-item">
+                    <svg class="gallery-image" viewBox="0 0 300 300" role="img" aria-label="Illustration of a cosmetic cream bottle">
+                        <rect width="300" height="300" fill="#e7d9ca"/>
+                        <circle cx="150" cy="145" r="105" fill="#d6c1ad"/>
+                        <rect x="112" y="95" width="76" height="130" rx="8" fill="#f5efe6"/>
+                        <rect x="126" y="76" width="48" height="22" fill="#49382f"/>
+                        <rect x="120" y="115" width="60" height="5" fill="#ad777b"/>
+                        <text x="150" y="155" text-anchor="middle" font-size="11" fill="#49382f">SEN SULU</text>
+                        <text x="150" y="171" text-anchor="middle" font-size="8" fill="#49382f">HAND CREAM</text>
+                    </svg>
+                    <div class="gallery-caption">
+                        <span>STUDY 01</span>
+                        <span>THE DAILY CREAM</span>
+                    </div>
+                </div>
+
+                <div class="gallery-item">
+                    <svg class="gallery-image" viewBox="0 0 300 300" role="img" aria-label="Illustration of a cosmetic serum bottle">
+                        <rect width="300" height="300" fill="#d9cbb9"/>
+                        <circle cx="150" cy="145" r="105" fill="#c6ad9b"/>
+                        <rect x="115" y="105" width="70" height="120" rx="5" fill="#49382f"/>
+                        <rect x="132" y="75" width="36" height="32" fill="#f5efe6"/>
+                        <rect x="140" y="60" width="20" height="16" fill="#49382f"/>
+                        <text x="150" y="160" text-anchor="middle" font-size="10" fill="#f5efe6">SEN SULU</text>
+                        <text x="150" y="175" text-anchor="middle" font-size="8" fill="#f5efe6">FACE SERUM</text>
+                    </svg>
+                    <div class="gallery-caption">
+                        <span>STUDY 02</span>
+                        <span>THE FACE SERUM</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="gallery-buttons">
+                <button id="fadeInButton">Fade In</button>
+                <button id="fadeOutButton">Fade Out</button>
+                <button id="fadeToggleButton">Fade Toggle</button>
+            </div>
+        </section>
+
+        <section class="section collection" id="collection">
+            <div class="section-label">
+                <span>04</span>
+                <span>THE COLLECTION</span>
+            </div>
+
+            <div class="collection-heading">
+                <p class="eyebrow">SELECTED ESSENTIALS</p>
+                <h2>Everyday <em>objects.</em></h2>
+                <p>Four essentials. One simple routine.</p>
+            </div>
+
+            <div class="product-list">
+                <article class="product-card">
+                    <span class="product-number">01 / SKIN</span>
+                    <h3>Rose Hand Cream</h3>
+                    <p>A soft daily treatment for your hands.</p>
+                    <span class="price">$18</span>
+                </article>
+
+                <article class="product-card">
+                    <span class="product-number">02 / BODY</span>
+                    <h3>Silk Body Lotion</h3>
+                    <p>Lightweight care for everyday comfort.</p>
+                    <span class="price">$25</span>
+                </article>
+
+                <article class="product-card">
+                    <span class="product-number">03 / LIPS</span>
+                    <h3>Vanilla Lip Balm</h3>
+                    <p>A simple essential for soft lips.</p>
+                    <span class="price">$12</span>
+                </article>
+
+                <article class="product-card">
+                    <span class="product-number">04 / FACE</span>
+                    <h3>Daily Face Serum</h3>
+                    <p>A gentle addition to your skincare ritual.</p>
+                    <span class="price">$30</span>
+                </article>
+            </div>
+        </section>
+
+        <section class="quote-section">
+            <p class="eyebrow">A NOTE TO REMEMBER</p>
+            <blockquote>
+                "The most beautiful thing you can wear is the way you feel."
+            </blockquote>
+            <span>— SEN SULU</span>
+        </section>
+
+        <section class="section journal" id="journal">
+            <div class="section-label">
+                <span>05</span>
+                <span>THE JOURNAL</span>
+            </div>
+
+            <div class="journal-heading">
+                <p class="eyebrow">SMALL THOUGHTS, DAILY RITUALS</p>
+                <h2>Notes on <em>self-care.</em></h2>
+            </div>
+
+            <div class="journal-item">
+                <button class="slideButton">
+                    <span>01</span>
+                    <span>Make time for yourself</span>
+                    <span>+</span>
+                </button>
+                <div class="slidePanel">
+                    <p>
+                        Your routine does not need to be long.
+                        Even a few quiet minutes can become a meaningful
+                        moment in your day.
+                    </p>
+                </div>
+            </div>
+
+            <div class="journal-item">
+                <button class="slideButton">
+                    <span>02</span>
+                    <span>Keep things simple</span>
+                    <span>+</span>
+                </button>
+                <div class="slidePanel">
+                    <p>
+                        Choose products that work for your needs.
+                        A thoughtful routine is often better than
+                        a complicated one.
+                    </p>
+                </div>
+            </div>
+
+            <div class="journal-item">
+                <button class="slideButton">
+                    <span>03</span>
+                    <span>Feel good in your own skin</span>
+                    <span>+</span>
+                </button>
+                <div class="slidePanel">
+                    <p>
+                        Self-care is personal. Find what makes you
+                        comfortable and give yourself permission
+                        to enjoy it.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section skills-section">
+            <div class="section-label">
+                <span>06</span>
+                <span>OUR VALUES</span>
+            </div>
+
+            <div class="skills-heading">
+                <p class="eyebrow">OUR PRINCIPLES</p>
+                <h2>Simple things,<br><em>lasting feelings.</em></h2>
+            </div>
+
+            <div class="values-list">
+                <p class="eyebrow">TECHNICAL SKILLS</p>
+
+                <ul id="skillList">
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>jQuery</li>
+                </ul>
+
+                <input type="text" id="skillInput" placeholder="Enter a new skill">
+
+                <div class="list-buttons">
+                    <button id="addSkill">Add Skill</button>
+                    <button id="prependSkill">Prepend Skill</button>
+                    <button id="removeSkill">Remove Skill</button>
+                </div>
+
+                <p id="listMessage"></p>
+            </div>
+
+            <div class="skill-bars">
+                <p class="eyebrow">SKILL LEVELS</p>
+
+                <div class="skill">
+                    <div class="skill-label">
+                        <span>HTML</span>
+                        <span>90%</span>
+                    </div>
+                    <div class="skill-track">
+                        <div class="skill-fill" data-width="90"></div>
+                    </div>
+                </div>
+
+                <div class="skill">
+                    <div class="skill-label">
+                        <span>CSS</span>
+                        <span>80%</span>
+                    </div>
+                    <div class="skill-track">
+                        <div class="skill-fill" data-width="80"></div>
+                    </div>
+                </div>
+
+                <div class="skill">
+                    <div class="skill-label">
+                        <span>JavaScript</span>
+                        <span>70%</span>
+                    </div>
+                    <div class="skill-track">
+                        <div class="skill-fill" data-width="70"></div>
+                    </div>
+                </div>
+
+                <button id="animateSkills">Animate My Skills</button>
+            </div>
+        </section>
+
+        <section class="section inspiration">
+            <div class="section-label">
+                <span>07</span>
+                <span>FIND INSPIRATION</span>
+            </div>
+
+            <div class="inspiration-content">
+                <p class="eyebrow">A LITTLE MORE SEN SULU</p>
+                <h2>Stay close to<br><em>what inspires you.</em></h2>
+                <a id="brandLink" href="https://www.pinterest.com/" target="_blank">
+                    Visit our inspiration page ↗
+                </a>
+                <button id="changeLink">Change destination</button>
+            </div>
+        </section>
+
+        <section class="section contact" id="contact">
+            <div class="section-label">
+                <span>08</span>
+                <span>CONTACT</span>
+            </div>
+
+            <div class="contact-layout">
+                <div class="contact-heading">
+                    <p class="eyebrow">WE WOULD LOVE TO HEAR FROM YOU</p>
+                    <h2>Let's start<br><em>a conversation.</em></h2>
+                    <p>Questions, ideas or just a hello. Our inbox is open.</p>
+                </div>
+
+                <div class="contact-form-area">
+                    <form id="contactForm" novalidate>
+                        <label for="name">YOUR NAME</label>
+                        <input type="text" id="name" placeholder="Enter your name">
+
+                        <label for="email">EMAIL ADDRESS</label>
+                        <input type="email" id="email" placeholder="Enter your email">
+
+                        <label for="message">YOUR MESSAGE</label>
+                        <textarea id="message" placeholder="Write something..."></textarea>
+
+                        <button type="submit" class="submit-button">SEND MESSAGE ↗</button>
+                    </form>
+
+                    <div class="preview">
+                        <p class="eyebrow">LIVE PREVIEW</p>
+                        <p id="namePreview">Name: —</p>
+                        <p id="emailPreview">Email: —</p>
+                    </div>
+
+                    <p id="formMessage"></p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-top">
+            <a href="#home" class="footer-logo">SEN SULU<span>®</span></a>
+            <p>Beauty is personal.</p>
+            <a href="#home">BACK TO TOP ↑</a>
+        </div>
+
+        <div class="footer-bottom">
+            <span>© 2026 SEN SULU</span>
+            <span>MADE WITH CARE IN ASTANA</span>
+            <span>ALL RIGHTS RESERVED</span>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>
